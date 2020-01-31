@@ -1,0 +1,22 @@
+{
+  "name": "cointest",
+  "version": "1.1.0",
+  "description": "CoinMode javascript test",
+  "main": "./app.js",
+  "scripts": {
+    "dev": "nodemon --exec \"npm test\"",
+    "test": "mocha ./tests/test.js",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "CoinMode",
+  "license": "ISC",
+  "dependencies": {
+    "xinq": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
